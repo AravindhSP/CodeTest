@@ -25,7 +25,7 @@ function login(){
     //console.log(iuname, ipwd);
 
     if(iuname==cred.admin.uname && ipwd==cred.admin.pwd){
-        window.location.href = "/https://aravindhsp.github.io/CodeTest/Latest/Admin.html";
+        window.location.href = "https://aravindhsp.github.io/CodeTest/Latest/Admin.html";
     } else if(iuname==cred.manager.uname && ipwd==cred.manager.pwd){
         console.log(window.location.href);
         console.log("Manager");
