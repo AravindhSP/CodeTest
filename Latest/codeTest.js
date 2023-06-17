@@ -29,10 +29,10 @@ function login(){
     } else if(iuname==cred.manager.uname && ipwd==cred.manager.pwd){
         console.log(window.location.href);
         console.log("Manager");
-        window.location.href = "/Manager.html";
+        window.location.href = "https://aravindhsp.github.io/CodeTest/Latest/Manager.html";
     } else if(iuname==cred.developer.uname && ipwd==cred.developer.pwd){
         console.log("Developer");
-        window.location.href = "/Developer.html";
+        window.location.href = "https://aravindhsp.github.io/CodeTest/Latest/Developer.html";
     } else {
         console.log("Incorrect credentials!");
         alert("Page not found!")
