@@ -10,6 +10,9 @@ body{
 h2{
     color: aliceblue;
 }
+h3{
+    color: aliceblue;
+}
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
